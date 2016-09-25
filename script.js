@@ -40,17 +40,6 @@ var Demosthenes = {
 var speeches = ['Churchill', 'Ghandi', 'Demosthenes'];
 
 //code here shows difference in years between Churchhill's and Ghandi's speeches
-var date1 = new Date(1940);
-var date2 = new Date(1942);
-
-function getDaysBetween(date1, date2) {
-  var yearsBetween = (date2 - date1);
-  return Math.round(yearsBetween);
- } 
-
-console.log("Ghandi's speech and Churchill's speech are " + [getDaysBetween(date1, date2)] + " years apart.");
-
-//code here shows alternate way to display difference in years between Churchhill's and Ghandi's speeches
 var difference = (1942-1940);
 
 console.log("Ghandi's speech and Churchill's speech are " + [difference] + " years apart.");
